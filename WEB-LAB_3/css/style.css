@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+
+/* ==================================== */
+
+.container {
+  display: grid;
+  grid-template-columns: 650px 650px;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+  max-width: 1370px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #77837f;
+}
+.list__container {
+ min-height: 200px;
+}
+.list_items {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+.table {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.image__container {
+  text-align: center;
+}
+.image {
+  width: 430px;
+  height: 315px;
+}
+.video__container {
+  text-align: center;
+}
+.btn {
+  display: block;
+  text-align: center;
+  margin: 50px auto;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+
+/* AboutUs
+========================================= */
+.mainBlock {
+  margin: 0px auto;
+  color: #fff;
+  text-align: center;
+}
+.anyBlock {
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  background-color: beige;
+}
+
+
